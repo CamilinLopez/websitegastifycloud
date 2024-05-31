@@ -1199,6 +1199,15 @@ p {
 @media (max-width: 767px) {
   .about-section .about-img-2 .shape.shape-2 {
     bottom: 30px;
+    left: 0;
+  }
+}
+@media (max-width: 640px) {
+  .about-section .about-img-2 .shape.shape-2 {
+    max-width: 300px;
+  }
+  .about-section .about-img-2 .shape.shape-1 {
+    left: 100px;
   }
 }
 
