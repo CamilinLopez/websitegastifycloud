@@ -93,6 +93,11 @@ h6 {
   font-size: 18px;
   line-height: 28px;
 }
+.section-title h5 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 
 h1 a,
 h2 a,
