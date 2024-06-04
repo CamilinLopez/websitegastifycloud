@@ -1611,6 +1611,10 @@ p {
   padding-right: 10px;
 }
 
+.btn-purple {
+ background-color: #5864FF;
+ color: white;
+}
 .ezy__pricing8-icon {
   display:inline-block;
   vertical-align:top;
