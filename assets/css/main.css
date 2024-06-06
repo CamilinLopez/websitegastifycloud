@@ -221,9 +221,6 @@ p {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .main-btn{
-    font-size: 14px;
-  }
 }
 
 .main-btn {
@@ -248,9 +245,35 @@ p {
   background: #5864FF;
   overflow: hidden;
 }
+.main-btn-orange {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 18px 38px;
+  font-size: 18px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: none;
+  background: #ff9e65;
+  overflow: hidden;
+}
 
 @media (max-width: 767px) {
   .main-btn{
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+  .main-btn-orange{
     font-size: 14px;
     padding: 13px 20px;
   }
