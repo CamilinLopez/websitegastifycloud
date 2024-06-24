@@ -1612,6 +1612,10 @@ p {
   display: inline-block;
 }
 
+.imagen_redondeada {
+  border-radius: 15px;
+}
+
 .ezy__pricing5 .btn-outline-primary {
   background-color: rgba(var(--ezy-theme-color-rgb), 0.15);
   color: rgba(var(--ezy-theme-color-rgb), 1) !important;
@@ -1753,7 +1757,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  min-height: 350px;
   width: 100%;
   float: right;
   box-shadow: var(--ezy-bg-holder-shadow);
