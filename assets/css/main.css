@@ -267,15 +267,20 @@ p {
   background: #ff9e65;
   overflow: hidden;
 }
-
+.div_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 @media (max-width: 767px) {
   .main-btn{
     font-size: 14px;
     padding: 13px 20px;
   }
   .main-btn-orange{
-    font-size: 14px;
-    padding: 13px 20px;
+    font-size: 16px;
+    padding: 16px 10px;
   }
 }
 
