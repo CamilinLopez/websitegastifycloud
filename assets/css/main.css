@@ -763,7 +763,7 @@ p {
 
 .navbar-nav .nav-item a {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 400;1r
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -2064,19 +2064,22 @@ p {
   top: auto;
   opacity: 0;
 }
-.ezy__team12-features-inner:hover .ezy__team12-features-content {
+
+/* // Opciones de css para activar animaciones y mostrar redes sociales */
+
+/* .ezy__team12-features-inner:hover .ezy__team12-features-content {
   padding: 30px 20px 84px;
   background-color: var(--ezy-theme-color);
-}
+} */
 
-.ezy__team12-features-inner:hover .ezy__team12-title {
+/* .ezy__team12-features-inner:hover .ezy__team12-title {
   color: #fff;
 }
 
 .ezy__team12-features-inner:hover .ezy__team12-sub-title {
   color: #fff;
   opacity: 0.85;
-}
+} */
 
 .ezy__team12-features-inner:hover .ezy__team12-social-icon li a {
   color: #fff;
