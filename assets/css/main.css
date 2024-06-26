@@ -1941,7 +1941,178 @@ p {
   opacity: 0.7;
 }
 
-/* ---------widget-seccion-calendar--------------------- */
+/* ---------widget-seccion-calendar-end--------------------- */
+/* ---------Conocenos-seccion-end--------------------- */
+.ezy__team12 {
+  --bs-body-color: rgb(50, 62, 80);
+  --bs-body-bg: #ffffff;
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: #00bfa5;
+  --ezy-content-color: #ffffff;
+  --ezy-box-shadow: 0 7px 65px 0 rgba(0, 0, 0, 0.12);
+
+  background-color: var(--bs-body-bg);
+}
+
+/* Gray Block Style */
+.gray .ezy__team12,
+.ezy__team12.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__team12,
+.ezy__team12.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-content-color: #233346;
+  --ezy-card-box-shadow: 0 21px 65px 0 rgba(75, 75, 75, 0.25);
+}
+
+/* Dark Block Style */
+.dark .ezy__team12,
+.ezy__team12.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-content-color: #162231;
+  --ezy-card-box-shadow: 0 21px 65px 0 rgba(55, 55, 55, 0.25);
+}
+
+.ezy__team12-heading {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__team12-heading {
+    font-size: 45px;
+  }
+}
+
+.ezy__team12-sub-heading {
+  font-size: 17px;
+  color: var(--bs-body-color);
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.ezy__team12-separator {
+  padding: 100px 0;
+}
+
+.ezy__team12-each-features {
+  margin: 50px 0;
+}
+
+@media (min-width: 991px) {
+  .ezy__team12-each-features {
+    margin: 0;
+  }
+}
+
+.ezy__team12-features-content {
+  position: absolute;
+  background-color: var(--ezy-content-color);
+  bottom: -50px;
+  padding: 20px;
+  width: 80%;
+  left: 10%;
+  box-shadow: var(--ezy-box-shadow);
+  z-index: 1;
+  overflow: hidden;
+  transform: translateX(0) translateY(30px) translateZ(0) rotate(0deg) scale(1);
+}
+
+.ezy__team12-features-content,
+.ezy__team12-title,
+.ezy__team12-sub-title,
+.ezy__team12-social-icon-area {
+  transition: all 0.4s ease-out;
+}
+
+.ezy__team12-title {
+  color: var(--bs-body-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.ezy__team12-sub-title {
+  color: var(--bs-body-color);
+  font-size: 17px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.ezy__team12-social-icon-area {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: auto;
+  opacity: 0;
+}
+.ezy__team12-features-inner:hover .ezy__team12-features-content {
+  padding: 30px 20px 84px;
+  background-color: var(--ezy-theme-color);
+}
+
+.ezy__team12-features-inner:hover .ezy__team12-title {
+  color: #fff;
+}
+
+.ezy__team12-features-inner:hover .ezy__team12-sub-title {
+  color: #fff;
+  opacity: 0.85;
+}
+
+.ezy__team12-features-inner:hover .ezy__team12-social-icon li a {
+  color: #fff;
+}
+
+.ezy__team12-features-inner:hover .ezy__team12-social-icon-area {
+  opacity: 1;
+  transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(1);
+}
+
+.ezy__team12-social-icon li {
+  list-style: none;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.ezy__team12-social-icon li a {
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 8px;
+  margin-right: 10px;
+  color: var(--ezy-content-color);
+  opacity: 0.9;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+/* ---------Conocenos-seccion-end--------------------- */
 @media (max-width: 768px) {
 }
 .widget-section{
@@ -1956,6 +2127,9 @@ p {
 .widget-calendario{
   width: auto;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-card-2{
