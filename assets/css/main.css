@@ -763,7 +763,7 @@ p {
 
 .navbar-nav .nav-item a {
   font-size: 18px;
-  font-weight: 400;1r
+  font-weight: 400;
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -778,6 +778,7 @@ p {
   height: 5px;
   width: 0;
   border-radius: 16px;
+  color: #fff;
   background: #5864FF;
   bottom: 15px;
   left: 0;
